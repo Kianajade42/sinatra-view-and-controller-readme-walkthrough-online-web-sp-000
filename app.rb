@@ -5,8 +5,8 @@ class App < Sinatra::Base
     erb :reverse
   end
 
-  post '/reversed' do
-    erb :reversed
+  post '/reverse' do
+    erb :reverse
   end
 
   get '/friends' do
